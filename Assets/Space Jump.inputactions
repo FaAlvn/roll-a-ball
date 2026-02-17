@@ -1,0 +1,66 @@
+{
+    "version": 1,
+    "name": "Space Jump",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "d8a2b0f1-c65b-446a-82ac-3f7420418fa9",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "b369eed1-9a65-4a05-b548-2b77a3d035fe",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Jump",
+                    "type": "Button",
+                    "id": "8b448224-661d-433f-afe9-2f187cdcbafb",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "f9c767a2-6a93-4101-90eb-3c36ded5e94d",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "adb9d54b-c14f-41ae-a5ee-4f86a87f6f1e",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "cf2b96c8-aba1-4adf-b92d-444823b8d8bb",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
